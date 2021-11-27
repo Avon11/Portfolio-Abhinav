@@ -874,16 +874,24 @@ section {
   transition: color 0.2s;
 }
 .icon-social-twitter:hover {
-  color: #00aced;
+  color: #1da1f2;
+  transition: 0.3s;
+  transform: scale(1.3);
 }
 .icon-social-linkedin:hover {
   color: #0e76a8;
+  transition: 0.3s;
+  transform: scale(1.3);
 }
 .icon-social-instagram:hover {
   color: rgb(224, 94, 209);
+  transition: 0.3s;
+  transform: scale(1.3);
 }
 .icon-social-github:hover {
   color: #888;
+  transition: 0.3s;
+  transform: scale(1.3);
 }
 
 @media (max-width: 1199px) {
