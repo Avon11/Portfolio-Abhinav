@@ -149,6 +149,9 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active > a i,
 .nav-menu li:hover > a i {
+  padding-left: 3px;
+  transition: 0.2s;
+  transform: scale(1.2);
   color: #dd3c14;
 }
 
