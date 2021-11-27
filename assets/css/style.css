@@ -313,7 +313,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: #dd3c14;
 }
 
 .about .content p:last-child {
@@ -466,7 +466,6 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
-  /* opacity: 1; */
   left: 0;
   right: 0;
   bottom: -60px;
@@ -483,7 +482,7 @@ section {
   text-align: center;
   background: rgba(3, 13, 17, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -894,26 +893,6 @@ section {
   }
 }
 
-.contact-form {
-  width: 60%;
-  margin: 0 auto;
-}
-input[type="text"],
-input[type="email"],
-select,
-textarea {
-  width: 100%;
-  padding: 7px;
-  border-radius: 3px;
-  border: 1px solid #e2e2e2;
-}
-textarea {
-  height: 100px;
-}
-input[type="checkbox"] {
-  margin: 10px 5px 10px 0;
-}
-/*For the outline arounnd inputs*/
 *:focus {
   outline-color: #e97e22;
 }
